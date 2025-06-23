@@ -30,36 +30,7 @@ This wasn't just a project, it was a **marathon of determination, learning, debu
 
 ---
 
-## 📂 Folder Structure
 
-
-A cutting-edge sports analytics project that combines the power of **YOLOv8** and **Deep SORT** to re-identify and track football players in a single video feed, frame by frame.
-
-
-Smart-Player-Tracker/
-├── models/
-│ ├── best.pt # Trained YOLOv8 model
-│ └── src/
-│ ├── main.py # Main execution script
-│ └── videos/ # Input video folder
-├── output/
-│ └── result.mp4 # Output with tracking annotations
-├── requirements/
-│ └── requirements.txt # Python dependencies
-├── report.md # Report (optional)
-└── read.md # This file 📄
-
-
----
-
-## 🔧 How to Run
-
-### 1️⃣ Clone This Repository
-
-
-git clone https://github.com/<dhairya-0209>/Smart-Player-Tracker.git
-cd Smart-Player-Tracker 
----
 
 
 
