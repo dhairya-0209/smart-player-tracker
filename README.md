@@ -39,7 +39,7 @@ The project tracks players (class: `person`), assigns unique IDs, and renders th
 ---
 
 
-🪓 The Grind Behind It
+## 🪓 The Grind Behind It
 Let me be real here.
 
 This project wasn’t just about code. It was about resilience.
@@ -84,7 +84,7 @@ And finally...
 
 
   
-❤️ A Special Note
+## ❤️ A Special Note
 
 This wasn’t just a project.
 This was a one-day bootcamp in Computer Vision, Debugging, and Determination.
