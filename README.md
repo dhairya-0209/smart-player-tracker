@@ -18,11 +18,11 @@ The project tracks players (class: `person`), assigns unique IDs, and renders th
 
 ## 🛠️ Features
 
- 🎯 Accurate Player Detection via YOLOv8 (custom `best.pt` model)
- 🧠 Real-Time Tracking using Deep SORT
- 🎥 Video Output with Tracked Player IDs
- 🧪 Tested across various frame resolutions
- 💾 Efficient processing with frame-by-frame control
+- 🎯 Accurate Player Detection via YOLOv8 (custom `best.pt` model)
+- 🧠 Real-Time Tracking using Deep SORT
+- 🎥 Video Output with Tracked Player IDs
+- 🧪 Tested across various frame resolutions
+- 💾 Efficient processing with frame-by-frame control
 
 ---
 
