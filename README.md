@@ -44,45 +44,58 @@ Let me be real here.
 
 This project wasn’t just about code. It was about resilience.
 
-Started at 🕛 12 PM sharp, just an idea and a .pt file.
+🕛 Started at 12 PM sharp, with just an idea and a .pt file.
 
 Faced:
 
-DLL errors
+❌ DLL errors
 
-Path errors
+❌ Path errors
 
-YOLO loading issues
+❌ YOLO model loading failures
 
-0-byte video generation
+❌ 0-byte .mp4 videos
 
-Frame failures
+❌ Frame read errors
 
-Deep SORT mismatches
+❌ Deep SORT mismatches
 
-Non-playable .mp4 files
+❌ NoneType object failures
 
-🧠 Spent hours figuring out: Why video isn’t saving? Why is model not loading?
+❌ Files not refreshing in VS Code
 
-🔧 Even wrote dummy video generators to test OpenCV
+🧠 Spent hours investigating:
 
-📼 Used VS Code extensions, system drag-and-drop, and file system checkers
+Why is the output video empty?
 
-💪 From frustration to solution, the video finally ran at 11:57 PM — 12 hours later.
+Why is nothing displaying on screen?
 
-💡 This wasn’t just a project. This was a one-day bootcamp on computer vision + debugging.
+Why is YOLO not detecting anything?
+
+🛠️ I even wrote dummy video scripts to test OpenCV's VideoWriter manually.
+
+🔄 Moved files across folders, used VS Code drag-and-drop, checked paths line-by-line.
+
+⚙️ Ran yolo predict to verify model behavior.
+
+And finally...
+
+🎉 The video played successfully at 11:57 PM — 12 hours of complete hustle.
 
 
----
-
-
+  
 ❤️ A Special Note
-This project represents a full day of relentless problem-solving. From path bugs, corrupt videos, black screen outputs, NoneType errors, and YOLO quirks — each issue was solved with patience and resolve.
 
-🧑‍💻 From 12 PM to 12 AM, this became more than a submission — it became a testament of never giving up.
+This wasn’t just a project.
+This was a one-day bootcamp in Computer Vision, Debugging, and Determination.
 
+From broken paths and corrupt videos
+To finally watching the player tracking happen live on screen,
+This became more than a submission —
+It became a personal milestone.
 
----
+🧑‍💻 Built by Dhairya Bhatia — fueled by coffee, curiosity, and commitment.
+
 
 
 
