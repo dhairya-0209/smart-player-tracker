@@ -38,6 +38,69 @@ The project tracks players (class: `person`), assigns unique IDs, and renders th
 
 ---
 
+🚀 How to Run This Project
+🛠️ Make sure you have:
+
+Python 3.10+
+
+best.pt YOLOv8 trained model
+
+Your input video placed correctly
+
+(Optional) A virtual environment setup
+
+1️⃣ Clone the Repository
+
+Copy
+Edit
+git clone https://github.com/dhairya-0209/Smart-Player-Tracker.git
+cd Smart-Player-Tracker
+
+2️⃣ Create a Virtual Environment (Optional but Recommended)
+
+Copy
+Edit
+python -m venv venv
+venv\Scripts\activate  # For Windows
+# OR
+source venv/bin/activate  # For Mac/Linux
+
+3️⃣ Install the Required Libraries
+
+pip install -r requirements.txt
+
+🔄 If requirements.txt is missing, run:
+
+pip install opencv-python ultralytics deep_sort_realtime numpy
+
+4️⃣ Add Your YOLOv8 Model
+Place your trained YOLO model (best.pt) inside the models/ folder
+
+Smart-Player-Tracker/
+└── models/
+    └── best.pt
+    
+5️⃣ Add Input Video
+
+Place your input video in:
+
+Smart-Player-Tracker/src/videos/
+Default video name: 15sec_input_720p.mp4
+
+You can edit the video path in src/main.py if needed.
+
+6️⃣ Run the Project
+
+cd src
+python main.py
+✅ Output
+Processed video will be saved in:
+
+
+Smart-Player-Tracker/output/result.mp4
+It will display real-time player tracking with bounding boxes and IDs.
+
+ ---
 
 ## 🪓 The Grind Behind It
 Let me be real here.
