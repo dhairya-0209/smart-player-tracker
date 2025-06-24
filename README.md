@@ -60,7 +60,9 @@ cd Smart-Player-Tracker
 
 python -m venv venv
 venv\Scripts\activate  # For Windows
+
  OR
+ 
 source venv/bin/activate  # For Mac/Linux
 
 ## 3️⃣ Install the Required Libraries
@@ -81,11 +83,11 @@ Smart-Player-Tracker/
     
 ## 5️⃣ Add Input Video
 
-Place your input video in:
+- Place your input video in:
 
 Smart-Player-Tracker/src/videos/
 
-Default video name: 15sec_input_720p.mp4
+- Default video name: 15sec_input_720p.mp4
 
 You can edit the video path in src/main.py if needed.
 
@@ -101,7 +103,7 @@ Processed video will be saved in:
 
 Smart-Player-Tracker/output/result.mp4
 
-## It will display real-time player tracking with bounding boxes and IDs.
+ It will display real-time player tracking with bounding boxes and IDs.
 
  ---
 
