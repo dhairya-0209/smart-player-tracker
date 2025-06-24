@@ -41,13 +41,13 @@ The project tracks players (class: `person`), assigns unique IDs, and renders th
 ## 🚀 How to Run This Project
 🛠️ Make sure you have:
 
-Python 3.10+
+- Python 3.10+
 
-best.pt YOLOv8 trained model
+- best.pt YOLOv8 trained model
 
-Your input video placed correctly
+- Your input video placed correctly
 
-(Optional) A virtual environment setup
+- (Optional) A virtual environment setup
 
 ## 1️⃣ Clone the Repository
 
@@ -72,6 +72,7 @@ pip install -r requirements.txt
 pip install opencv-python ultralytics deep_sort_realtime numpy
 
 ## 4️⃣ Add Your YOLOv8 Model
+
 Place your trained YOLO model (best.pt) inside the models/ folder
 
 Smart-Player-Tracker/
@@ -83,6 +84,7 @@ Smart-Player-Tracker/
 Place your input video in:
 
 Smart-Player-Tracker/src/videos/
+
 Default video name: 15sec_input_720p.mp4
 
 You can edit the video path in src/main.py if needed.
@@ -91,27 +93,27 @@ You can edit the video path in src/main.py if needed.
 
 cd src
 python main.py
-✅ Output
+
+## ✅ Output
+
 Processed video will be saved in:
 
 
 Smart-Player-Tracker/output/result.mp4
-It will display real-time player tracking with bounding boxes and IDs.
+
+## It will display real-time player tracking with bounding boxes and IDs.
 
  ---
 
-## 🪓 The Grind Behind It
-Let me be real here.
+## 🪓🪓 The Grind Behind It
+This wasn’t just about writing code — it was about not giving up.
 
-This project wasn’t just about code. It was about resilience.
-
-🕛 Started at 12 PM sharp, with just an idea and a .pt file.
+🕛 Started at 12 PM with just an idea and a .pt model.
+Faced everything from:
 
 Faced:
 
-❌ DLL errors
-
-❌ Path errors
+❌ DLL & path errors
 
 ❌ YOLO model loading failures
 
@@ -122,8 +124,6 @@ Faced:
 ❌ Deep SORT mismatches
 
 ❌ NoneType object failures
-
-❌ Files not refreshing in VS Code
 
 🧠 Spent hours investigating:
 
@@ -145,19 +145,15 @@ And finally...
 
 
   
-## ❤️ A Special Note
+## ❤️ A Note from Me
 
-This wasn’t just a project.
-This was a one-day bootcamp in Computer Vision, Debugging, and Determination.
+More than a project — this was a 12-hour sprint of frustration, learning, and triumph.
 
-From broken paths and corrupt videos
-To finally watching the player tracking happen live on screen,
-This became more than a submission —
-It became a personal milestone.
+From broken frames to full-frame tracking...
+This build taught me patience, precision, and perseverance.
 
-🧑‍💻 Built by Dhairya Bhatia — fueled by coffee, curiosity, and commitment.
-
-
+🧑‍💻 Built with focus, curiosity, and zero breaks.
+– Dhairya Bhatia
 
 
 
