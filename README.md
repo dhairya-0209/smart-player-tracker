@@ -145,6 +145,12 @@ And finally...
 
 🎉 The video played successfully at 11:57 PM — 12 hours of complete hustle.
 
+## 🔗 Downloads
+
+| File | Link |
+|------|------|
+| 🧠 YOLOv8 Model (`best.pt`) | [Download Here](https://drive.google.com/file/d/1X85lL8_jYiaBjclZW6XRk2xczE2gBtPO/view?usp=sharing) |
+
 
   
 ## ❤️ A Note from Me
